@@ -6156,3 +6156,11 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+.img-circle{
+    width: auto\9;
+    height: auto;
+    max-width: 30%;
+    vertical-align: middle;
+    border: 0;
+}
