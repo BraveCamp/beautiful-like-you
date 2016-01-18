@@ -30,7 +30,12 @@
 
 /* Main Colors
 =================================================================== */
+*{
+  font-family: 'Indie Flower', cursive;
+}
 
+
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 .black,
 .black [class="box-header"],
 .black.box,
@@ -38,8 +43,8 @@
 .progress.black .ui-progressbar-value
 .sliderVertical.black .ui-slider-range,
 .progressSlim.black .ui-progressbar-value {
-	background: #222 !important;
-	border-color: #222 !important;
+	background: #FFFFFF !important;
+	border-color: #FFFFFF !important;
 	color: #fff;
 }
 
@@ -60,8 +65,8 @@
 .progressSlim.green .ui-progressbar-value,
 .label-success,
 .badge-success {
-	background: #43B5AD !important;
-	border-color: #43B5AD !important;
+	background: #84DCC6 !important;
+	border-color: #A5FFD6 !important;
 	color: #fff;
 }
 
@@ -72,7 +77,7 @@
 .progress.greenDark .ui-progressbar-value,
 .sliderVertical.greenDark .ui-slider-range,
 .progressSlim.greenDark .ui-progressbar-value {
-	background: #1E7145 !important;
+	background: #A5FFD6 !important;
 	border-color: #1E7145 !important;
 	color: #fff;
 }
@@ -84,7 +89,7 @@
 .progress.greenLight .ui-progressbar-value,
 .sliderVertical.greenLight .ui-slider-range,
 .progressSlim.greenLight .ui-progressbar-value {
-	background: #99B433 !important;
+	background: #FFA69E !important;
 	border-color: #99B433 !important;
 	color: #fff;
 }
@@ -839,6 +844,7 @@ ul.messages li .message {
      	-moz-box-shadow: none;
           box-shadow: none;
 	overflow: hidden;
+  font-family: 'Indie Flower', cursive;
 }
 
 .box-header h2{
@@ -1011,7 +1017,7 @@ ul.messages li .message {
 .label,
 .badge {
   	text-shadow: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Indie Flower', cursive;
 	font-weight: 600;
 	font-size: 12px;
 	padding: 3px 6px;
@@ -1823,7 +1829,7 @@ fieldset[disabled] .btn-link:focus {
 /* Alert Boxes
 =================================================================== */
 .alert {
-	font-family: Arial, sans-serif;
+	font-family: 'Indie Flower', cursive;
 	font-size: 12px;
 	line-height: 18px;
 	margin-bottom: 15px;
@@ -2468,7 +2474,7 @@ div.uploader{
 }
 .rating span.star,
 .rating span.star {
-  font-family: FontAwesome;
+  font-family:'Indie Flower', cursive;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -3007,4 +3013,8 @@ ul.messagesList li span.date {
 }
 .navbar .brand{
 	font-size: 35px;
+}
+
+#Stories {
+  width: auto;
 }
