@@ -1,6 +1,15 @@
 .breadcrumb{
   font-family: 'Indie Flower', cursive;
 }
-.navbar-inner{background-color: #7aeec2}
-.sidebar-nav{ background-color: #fdd981}
-ul:hover{background-color: #8196fd}
+.navbar-inner{
+  background-color: #FFA69E;
+  border-bottom: none !important;
+}
+.sidebar-nav{ background-color: #84DCC6;}
+.sidebar-nav ul li a:hover { background-color: #A5FFD6 !important;}
+.sidebar-nav ul .active a {
+  background-color: #FF686B !important;
+  border-bottom: none !important;
+}
+
+#sidebar-left{background-color: #84DCC6;}

@@ -65,9 +65,8 @@
 .progressSlim.green .ui-progressbar-value,
 .label-success,
 .badge-success {
-	background: #84DCC6 !important;
-	border-color: #A5FFD6 !important;
-	color: #fff;
+	background: #FFEDED !important;
+	color: #333;
 }
 
 .greenDark,
@@ -127,9 +126,8 @@
 .progressSlim.yellow .ui-progressbar-value,
 .label-warning,
 .badge-warning {
-	background: #DEB948 !important;
-	border-color: #DEB948 !important;
-	color: #fff;
+	background: #67DBB2 !important;
+	color: #333;
 }
 
 .purple,
@@ -153,9 +151,9 @@
 .progressSlim.blue .ui-progressbar-value,
 .label-info,
 .badge-info {
-	background: #578EBE !important;
-	border-color: #578EBE !important;
-	color: #fff;
+	background: #C6FFE3 !important;
+
+	color: #333;
 }
 
 .blueDark,
@@ -215,9 +213,8 @@
 .progressSlim.red .ui-progressbar-value,
 .label-important,
 .badge-important {
-	background: #E25A59 !important;
-	border-color: #E25A59 !important;
-	color: #fff;
+	background: #FF877C !important;
+	color: #333;
 }
 
 .widget.green h2 .glyphicons i:before,
@@ -829,7 +826,7 @@ ul.messages li .message {
 }
 
 .box {
-	border: 2px solid #578EBE;
+
 	background: #fff !important;
 	margin-bottom: 28px;
 }
@@ -839,7 +836,7 @@ ul.messages li .message {
 	font-size: 16px;
 	line-height: 16px;
   	padding: 10px;
-  	background: #578EBE;
+  	background: #FF5959;
 	-webkit-box-shadow: none;
      	-moz-box-shadow: none;
           box-shadow: none;
